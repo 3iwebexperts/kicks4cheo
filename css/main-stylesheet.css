@@ -220,6 +220,16 @@ h1 h2 h3 h4 h5 h6 p a
 	font-size:30px;
 	margin:0;
 	font-weight: 600;
+
+}
+.page-content h4
+{
+	color: #692786;
+    font-size: 25px;
+    font-weight: Bold;
+    margin: 0;
+    text-transform: uppercase;
+	
 }
 .page-content p
 {
@@ -764,6 +774,9 @@ button#btnAdd {
 }
 .brand {
     text-align: center;
+}
+.brand img {
+    width: 50%;
 }
 
 
