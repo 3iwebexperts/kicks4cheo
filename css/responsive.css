@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:480px)
+{
+.pagehdr-cnct h3 
+{
+    color:#fff;
+    font-size:35px;
+    font-weight:100;
+    line-height:60px;
+    margin:110px 0px;
+}
+.gray-back 
+{
+    background: #ebebeb none repeat scroll 0 0;
+    left: 0;
+    margin-left:0px;
+    padding: 30px 0;
+    transform: skewX(0deg);
+}
+.gray-back-child 
+{
+    transform: skewX(0deg);
+}
+.ft-detail p 
+{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom:30px;
+    text-align: center;
+}
+.dates-content h3 
+{
+    color: #fff;
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 0;
+    text-align: center;
+}
+.ents-Box 
+{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    box-shadow: 1px 2px 3px #ddd;
+    margin-bottom:20px !important;
+}
+.boxD 
+{
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100%;
+	margin-bottom:20px !important;
+}
+.CH-form-back 
+{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #ddd;
+    margin: 0 auto;
+    max-width:95%;
+    padding: 20px 30px;
+}
+.frm-hdng h1 
+{
+    color: #054e98;
+    font-size: 15px;
+    margin: 0 0 15px;
+    word-break: break-all;
+}
+}
+
