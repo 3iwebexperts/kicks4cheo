@@ -46,7 +46,7 @@
 .pageheader
 {
     /*padding:70px 0;*/
-    background:url(../images/banner.jpg) no-repeat center;
+    background:url(../images/bg/background-3.jpg) no-repeat center;
 	background-size:cover;
 	padding:0px 0px;
 }
@@ -631,7 +631,7 @@ img.logo {
     }
     
     nav.navbar .navbar-brand img.logo{
-        width:40px;
+        width: 100px !important;
 		margin-top:-5px;
     }
     

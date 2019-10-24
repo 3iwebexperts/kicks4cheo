@@ -112,7 +112,7 @@
                     	<h1 class="text-center">KICKS 4 CHEO</h1>
                         <img src="images/abt-devider.png" alt="cout" class="img-center">
                         <div class="clearfix mrgn-30"></div>
-                        <p class="text-center mrgn-10" style="font-size: 25px;">KICKS 4 CHEO IS A ONE DAY SOCCER TOURNAMENT HOSTED IN OTTAWA ONTARIO CANADA. THIS EVENT IS JOINTLY PRESENTED BY <br/><a href=""><img src="images/ft-logo.png" alt="col-solutions"></a> AND <a href=""><img src="images/ors.png" alt="col-solutions"></a></p>
+                        <p class="text-center mrgn-10" style="font-size: 25px;">KICKS 4 CHEO IS A ONE DAY SOCCER TOURNAMENT HOSTED IN OTTAWA ONTARIO CANADA. THIS EVENT IS JOINTLY PRESENTED BY </br><a href="https://colesolutions.ca"><img src="images/ft-logo.png" alt="col-solutions"></a> AND <a href="https://ottawarecsports.com"><img src="images/ors.png" alt="col-solutions"></a></p>
                         <div class="clearfix mrgn-20"></div>
                         <p class="text-center mrgn-10">OUR COMMUNITY IS ONE OF THE MOST FORTUNATE IN CANADA TO HAVE SUCH A WELL-KNOWN AND RESPECTED HOSPITAL RIGHT IN OUR CITY SUPPORTING OUR CHILDREN. THE GOAL OF KICK 4 CHEO IS TO RAISE MONEY TO CONTINUE BUILDING THE STRONG ORGANIZATION WE HAVE.</p>
                         <div class="clearfix mrgn-20"></div>

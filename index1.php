@@ -6,6 +6,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132574047-1"></script>
 <script>
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -41,13 +42,12 @@
     <!-- ============= CORE CSS ============== -->
       
     <!-- ============= WEB FONT ============== -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-    
+    <link href='fonts/roboto-fontfacekit/web%20fonts/roboto_regular_macroman/stylesheet.html' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
     <!-- ============= WEB FONT ============== -->
       
     <!-- Re-captcha --> 
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <!-- Re-captcha -->
       
       
 </head>
@@ -65,14 +65,14 @@
             <!-- End Header Navigation -->
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-menu">
-                <ul class="nav navbar-nav navbar-right">
+               <ul class="nav navbar-nav navbar-right">
                     <li class="active scroll"><a href="#home">Home</a></li>
                     <li class="scroll"><a href="#about">About Us</a></li>
                     <li class="scroll"><a href="#why-attend">Schedule</a></li>
                     <li class="scroll"><a href="#" data-toggle="modal" data-target="#registration">Registration</a></li>
                     <li class="scroll"><a href="#sponsors">Sponsors</a></li>
                     <li class="scroll"><a href="#contact">Contact</a></li>
-                </ul>
+               </ul>
             </div>
             <!-- /.navbar-collapse -->
          </div>
@@ -109,18 +109,10 @@
             <div class="row">
             	<div class="col-md-12">
                 	<div class="page-content">
-                    	<h1 class="text-center">KICKS 4 CHEO</h1>
-                        <img src="images/abt-devider.png" alt="cout" class="img-center">
-                        <div class="clearfix mrgn-30"></div>
-                        <p class="text-center mrgn-10" style="font-size: 25px;">KICKS 4 CHEO IS A ONE DAY SOCCER TOURNAMENT HOSTED IN OTTAWA ONTARIO CANADA. THIS EVENT IS JOINTLY PRESENTED BY <br/><a href=""><img src="images/ft-logo.png" alt="col-solutions"></a> AND <a href=""><img src="images/ors.png" alt="col-solutions"></a></p>
-                        <div class="clearfix mrgn-20"></div>
-                        <p class="text-center mrgn-10">OUR COMMUNITY IS ONE OF THE MOST FORTUNATE IN CANADA TO HAVE SUCH A WELL-KNOWN AND RESPECTED HOSPITAL RIGHT IN OUR CITY SUPPORTING OUR CHILDREN. THE GOAL OF KICK 4 CHEO IS TO RAISE MONEY TO CONTINUE BUILDING THE STRONG ORGANIZATION WE HAVE.</p>
-                        <div class="clearfix mrgn-20"></div>
-                        <p class="text-center mrgn-10">ON DECEMBER 21ST 2019 COME OUT AND HAVE SOME FUN, MAKE NEW FRIENDS, AND PLAY A SPORT THAT IS CONSISTENTLY GROWING IN OTTAWA WHILE SUPPORTING A CAUSE KNOWN TO ALL.</p>
-                        <div class="clearfix mrgn-20"></div>
-                        <p class="text-center mrgn-10">THE GAMES WILL BE 7 ON 7 ON AN INDOOR TURF FIELD, AND WILL BE FULLY REFEREED. ANDREW COLE AND JOEL LEVITON OF THE RESPECTED PRESENTING ORGANIZATIONS WILL BE ONSITE TO SUPPORT THROUGHOUT.</p>
-                        <div class="clearfix mrgn-20"></div>
-                        <p class="text-center mrgn-10">WE THANK YOU FOR YOUR SUPPORT AND LOOK FORWARD TO SEEING YOU ON THE FIELD. REGISTRATION IS BELOW.</p>
+                    	<h1 class="text-center">Leadercast Live</h1>
+                        <img src="images/abt-devider-1.png" alt="cout" class="img-center">
+                        
+                        <p class="text-center mrgn-10">KICKS 4 CHEO IS A ONE DAY SOCCER TOURNAMENT HOSTED IN OTTAWA ONTARIO CANADA. THIS EVENT IS JOINTLY PRESENTED BY COLE SOLUTIONS LIMITED AND OTTAWA REC SPORTS.</p>
 
                         <div class="clearfix mrgn-30"></div>
                         <div class="col-md-4"></div>
@@ -401,24 +393,24 @@
             	<div class="row">
                 	<div class="col-md-4">
                     	<div class="ft-detail">
-                        	<p>Questions?<br><a href="mailto:info@colesolutions.ca">info@colesolutions.ca</a><br>or fill out the form.</p>
+                        	<p>Questions?<br><a href="mailto:info@leadercastbrockville.com">info@leadercastbrockville.com</a><br>or fill out the form.</p>
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <div class="form-wiget">
-                            <h6>Fill out of the form below</h6>
+                    	<div class="form-wiget">
+                        	<h6>Fill out of the form below</h6>
                         </div>
                         <form id="contact_form" method="post">
-                            <div class="row">
-                                <div class="col-md-6">
+                        	<div class="row">
+                            	<div class="col-md-6">
                                     <span id="name-info"></span>
-                                    <input type="text" class="txt-bxd" name="name" id="name" placeholder="Full name" required="required">
+                                	<input type="text" class="txt-bxd" name="name" id="name" placeholder="Full name" required="required">
                                     <input type="email" class="txt-bxd" name="email" id="email" placeholder="Email address" required="required">
                                     <input type="text" class="txt-bxd" name="phone_number" id="phone_number" placeholder="Phone number" pattern="[7-9]{1}[0-9]{9}" required="required">
                                 </div>
                                 <div class="col-md-6">
                                     <textarea class="txt-bxd" name="message" rows="5" id="message" placeholder="Message" required="required"></textarea>
-                                    <input type="submit" class="btnd-red" name="submit" id="submit" value="Send Message">
+                                	<input type="submit" class="btnd-red" name="submit" id="submit" value="Send">
                                 </div>
                             </div>
                         </form>

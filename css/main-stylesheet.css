@@ -21,12 +21,14 @@ body
 	color:#333;
 	overflow-x:hidden;
 	font-family:Montserrat !important;
+
 }
 
 a
 {
 	text-decoration:none;
 	transition: all 0.2s ease-out 0s;
+	padding: 0px 15px;
 }
 a:hover
 {
@@ -175,7 +177,7 @@ h1 h2 h3 h4 h5 h6 p a
 
 .gray-back
 {
-	background:#000000;
+	background: rgba(255, 197, 80, 0.75);
 	padding:30px 0px;
 	margin-left:-175px;
 	left:0;
@@ -196,7 +198,7 @@ h1 h2 h3 h4 h5 h6 p a
 .pagehdr-cnct h3
 {
 	color: #fff;
-    font-size:45px;
+    font-size:36px;
     font-weight: Bold;
     line-height:60px;
     margin:110px 75px;
@@ -237,6 +239,8 @@ h1 h2 h3 h4 h5 h6 p a
 	width: 70%;
 	margin: 16px auto !important;
 	line-height: 30px;
+	color: #692786;
+	font-weight: 600;
 }
 
 .dark-gray
@@ -698,6 +702,7 @@ h1 h2 h3 h4 h5 h6 p a
 }
 .form-control{
     height: 50px;
+    font-size: 18px;
 }
 .btnSubmit
 {
@@ -709,6 +714,7 @@ h1 h2 h3 h4 h5 h6 p a
     background: #692786;
     color: #fff;
     margin-left: 40%;
+    margin-top: 15px;
 }
 .form-content h3{
 	text-align: center;
@@ -735,6 +741,12 @@ input.form-check-input {
 }
 .modal-dialog.modal-xl {
     width: 80%;
+}
+@media screen and (max-width:480px)
+{
+.modal-dialog.modal-xl {
+     width: 96% !important; 
+}
 }
 .register-modal button.close {
     font-size: 30px;
@@ -763,7 +775,7 @@ table.table.t-border th {
 .modal-dialog.modal-xl {
     border: 5px solid #692786;
 }
-button#btnAdd {
+button#insert-more {
     background: #692786;
     border: none;
     font-weight: 600;
