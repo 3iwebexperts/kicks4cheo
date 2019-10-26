@@ -13,7 +13,8 @@
   gtag('config', 'UA-132574047-1');
 </script>
     <meta charset="utf-8">
-    <title>Leadercast Live</title>
+    <title>KICKS 4 CHEO</title>
+    <link rel = "icon" href = "images/bear-logo.png" type = "image/x-icon">
     
     <!-- =-=-=-=-=-=-= Mobile Specific =-=-=-=-=-=-= -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -166,87 +167,86 @@
                                 <div class="form-content">
                                     <h3>2019 Registration</h3>
                                     <form id="ragister_form">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="* Your First Name" value="" required="required">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="* Your First Name" id="fname" value="" required="required">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="* Your Address" id="address" value="" required="required">
+                                                </div>
                                             </div>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="* Your Address" value="" required="required">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="* Your Last Name" id="lname" value="" required="required">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="* Your Phone Number" id="ph_number" value=""  required="required">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" placeholder="* Your Email" id="email" value="" required="required">
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="* Your Last Name" value="" required="required">
+                                        <div class="clearfix mrgn-20"></div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="" required="required" id="receive_email">
+                                                <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                                I agree to receive e-mail communications from Cole Solutions, Kicks 4 Cheo, and Ottawa Rec Sports for the specific purpose of this tournament.
+                                            </label>
+                                        </div>
+                                        <div class="clearfix mrgn-20"></div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="* Team Name" value="" id="team_name" required="required">
+                                                </div>
                                             </div>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="* Your Phone Number" value="" pattern="[7-9]{1}[0-9]{9}" required="required">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="* Number Of Players" id="players" value="" required="required">
+                                                </div>
                                             </div>
+                                        </div>
+                                        <div class="clearfix mrgn-20"></div>
+                                        <div class="table-form">
+                                            <button type="button" id="insert-more">+</button>
+                                            <table class="table" id="mytable">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Players Name</th>
+                                                        <th>Players Phone Number</th>
+                                                        <th>Players E-mail</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><input type="text" class="form-control" placeholder="*" id="player_name" value="" required="required"></td>
+                                                        <td><input type="text" class="form-control" placeholder="*" id="player_number" value="" required="required"></td>
+                                                        <td><input type="text" class="form-control" placeholder="*" id="player_email" value="" required="required"></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
                                         
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" placeholder="* Your Email" value="" required="required">
-                                            </div>
+                                        <div class="clearfix mrgn-20"></div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="" id="pay_for">
+                                                <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                                Do you agree to pay CHEO Directly for your registration? Please understand we will share your information with CHEO for the specific purpose of tax receipts and to contact for payment.
+                                            </label>
                                         </div>
-                                    </div>
-                                    <div class="clearfix mrgn-20"></div>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox" value="" required="required">
-                                            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
-                                            I agree to receive e-mail communications from Cole Solutions, Kicks 4 Cheo, and Ottawa Rec Sports for the specific purpose of this tournament.
-                                        </label>
-                                    </div>
-                                    <div class="clearfix mrgn-20"></div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="* Team Name" value="" required="required">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="* Number Of Players" value="" required="required">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="clearfix mrgn-20"></div>
-                                    <div class="table-form">
-                                        <button type="button" id="insert-more">+</button>
-                                        <table class="table" id="mytable">
-                                            <thead>
-                                                <tr>
-                                                    <th>Players Name</th>
-                                                    <th>Players Phone Number</th>
-                                                    <th>Players E-mail</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td><input type="text" class="form-control" placeholder="*" value="" required="required"></td>
-                                                    <td><input type="text" class="form-control" placeholder="*" value="" required="required"></td>
-                                                    <td><input type="text" class="form-control" placeholder="*" value="" required="required"></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    
-                                    <div class="clearfix mrgn-20"></div>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox" value="">
-                                            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
-                                            Do you agree to pay CHEO Directly for your registration? Please understand we will share your information with CHEO for the specific purpose of tax receipts and to contact for payment.
-                                        </label>
-                                    </div>
-                                    <div class="clearfix mrgn-20"></div>
-                                    <form action="?" method="POST">
-                                        <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-                                        <button type="button" class="btnSubmit">Submit</button>
+                                        <div class="clearfix mrgn-20"></div>
+                                        <form action="?" method="POST">
+                                            <div class="g-recaptcha" data-sitekey="6LeSmb8UAAAAAEBhvrVj5srNDX_lAPDQlX4OJyaI"></div>
+                                        </form>
+                                         <button type="submit" class="btnSubmit" id="registration_submit" name="submit">Submit</button>
                                     </form>
-
-                                </form>
                                 </div>
                             </div>
                         </div>
@@ -414,12 +414,13 @@
                                     <span id="name-info"></span>
                                     <input type="text" class="txt-bxd" name="name" id="name" placeholder="Full name" required="required">
                                     <input type="email" class="txt-bxd" name="email" id="email" placeholder="Email address" required="required">
-                                    <input type="text" class="txt-bxd" name="phone_number" id="phone_number" placeholder="Phone number" pattern="[7-9]{1}[0-9]{9}" required="required">
+                                    <input type="text" class="txt-bxd" name="phone_number" id="phone_number" placeholder="Phone number"  required="required">
                                 </div>
                                 <div class="col-md-6">
                                     <textarea class="txt-bxd" name="message" rows="5" id="message" placeholder="Message" required="required"></textarea>
                                     <input type="submit" class="btnd-red" name="submit" id="submit" value="Send Message">
                                 </div>
+                               
                             </div>
                         </form>
                     </div>
@@ -469,23 +470,46 @@
         });
     </script>
     <script>
-        $(function() {
-                    $("#submit").click(function() {
-                        var data = {
-                            name: $("#name").val(),
-                            email: $("#email").val(),
-                            phone_number: $("#phone_number").val(),
-                            message: $("#message").val()
-                        };
-                        $.ajax({
-                            type: "POST",
-                            url: "email2.php",
-                            data: data,
-                            success: function(){
-                            }
-                        });
-                    });
-                });
+        $("#contact_form").submit(function(event){
+            event.preventDefault();
+            var name = $("#name").val();
+            var email = $("#email").val();
+            var phone_number = $("#phone_number").val();
+            var message = $("#message").val();
+         
+            $.ajax({
+                type: "POST",
+                url: "mail.php",
+                data: "name=" + name + "&email=" + email + "&phone_number=" + phone_number + "&message=" + message,
+                success : function(){
+                     $('#contact_form')[0].reset();
+                }
+            });
+        });
+    </script>
+    <script>
+         $("#ragister_form").submit(function(event){
+            event.preventDefault();
+            var fname = $("#fname").val();
+            var lname = $("#lname").val();
+            var address = $("#address").val();
+            var email = $("#email").val();
+            var ph_number = $("#ph_number").val();
+            var team_name = $("#team_name").val();
+            var players = $("#players").val();
+            var player_name = $("#player_name").val();
+            var player_number = $("#player_number").val();
+            var player_email = $("#player_email").val();
+
+            $.ajax({
+                type: "POST",
+                url: "registration_mail.php",
+                data: "fname=" + fname + "&lname=" + lname + "&address=" + address + "&email=" + email + "&ph_number=" + ph_number + "&team_name=" + team_name + "&players=" + players + "&player_name=" + player_name + "&player_number=" + player_number + "&player_email=" + player_email,
+                success : function(){
+                     $('#ragister_form')[0].reset();
+                }
+            });
+        });
     </script>
 <!-- Mirrored from www.leadercastbrockville.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Oct 2019 05:19:21 GMT -->
 </html>
